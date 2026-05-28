@@ -6,9 +6,9 @@ namespace AESGCMSecretKey.Controllers;
 [Route("api/[controller]")]
 public class HomeController : ControllerBase
 {
-  [HttpGet]
-  public IActionResult Index()
-  {
-    return Ok("Welcome to the AES-GCM Secret Key Generator API!");
-  }
+    [HttpGet]
+    public IActionResult Index()
+    {
+        return Ok("Welcome to the AES-GCM Secret Key Generator API!");
+    }
 }
